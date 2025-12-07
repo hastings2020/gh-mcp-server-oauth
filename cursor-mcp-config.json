@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "github-oauth": {
+      "command": "node",
+      "args": [
+        "/home/user/gh-mcp-server-oauth/dist/index.js"
+      ],
+      "env": {},
+      "disabled": false
+    }
+  }
+}
