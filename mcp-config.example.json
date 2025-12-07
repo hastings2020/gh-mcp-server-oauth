@@ -1,0 +1,10 @@
+{
+  "github": {
+    "client_id": "your_oauth_app_client_id",
+    "scopes": [
+      "repo",
+      "read:user",
+      "read:org"
+    ]
+  }
+}
