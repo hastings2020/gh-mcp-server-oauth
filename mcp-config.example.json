@@ -6,5 +6,11 @@
       "read:user",
       "read:org"
     ]
+  },
+  "jenkins": {
+    "url": "https://jenkins.example.com",
+    "auth_mode": "github-oauth",
+    "username": "your_jenkins_username",
+    "api_token": "your_jenkins_api_token_if_not_using_github_oauth"
   }
 }

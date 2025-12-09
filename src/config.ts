@@ -14,8 +14,16 @@ export interface GitHubConfig {
   scopes: string[];
 }
 
+export interface JenkinsConfig {
+  url: string;
+  auth_mode?: 'github-oauth' | 'api-token';
+  username?: string;
+  api_token?: string;
+}
+
 export interface Config {
   github: GitHubConfig;
+  jenkins?: JenkinsConfig;
 }
 
 /**
